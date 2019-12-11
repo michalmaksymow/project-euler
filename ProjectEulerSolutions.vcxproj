@@ -27,6 +27,9 @@
     <ClInclude Include="src\Problem.h" />
     <ClInclude Include="src\Timer.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{9DBF5427-0C8A-48B0-BCDC-1E99C0E9A7AB}</ProjectGuid>
