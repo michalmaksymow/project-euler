@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Problem001.cpp">
+    <ClCompile Include="src\Problem001.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Timer.cpp">
+    <ClCompile Include="src\SolutionsMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SolutionsMain.cpp">
+    <ClCompile Include="src\Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Timer.h">
+    <ClInclude Include="src\Problem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Problem.h">
+    <ClInclude Include="src\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

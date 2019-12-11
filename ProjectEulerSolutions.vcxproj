@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Problem001.cpp" />
-    <ClCompile Include="SolutionsMain.cpp" />
-    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="src\Problem001.cpp" />
+    <ClCompile Include="src\SolutionsMain.cpp" />
+    <ClCompile Include="src\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Problem.h" />
-    <ClInclude Include="Timer.h" />
+    <ClInclude Include="src\Problem.h" />
+    <ClInclude Include="src\Timer.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
