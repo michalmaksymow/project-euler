@@ -7,8 +7,10 @@
 
 int main()
 {
-	std::cout << "Solutions to problems: \n";
+	std::cout << "Solutions to problems: \n\n";
+
 	problem001();
+	problem002();
 
 	system("pause");
 	return 0;
