@@ -1,5 +1,8 @@
 #include "Timer.h"
-#include <thread>
+/*
+	Solution to Project Euler problem 1 in C++
+	Copyright (c) Michal Maksymow
+*/
 
 void problem001()
 {
@@ -19,15 +22,6 @@ void problem001()
 	{
 		result -= i;
 	}
-	std::cout << "Sum of multiples: " << result << std::endl;
-}
-
-int main()
-{
-	std::thread t(problem001);
-	t.join();
-
-	system("pause");
-	return 0;
+	std::cout << "(Problem 1) Sum of multiples: " << result << std::endl;
 }
 
