@@ -25,7 +25,7 @@ void problem001()
 	}
 	/* Subtracting every number that is a multiple of 15 from the result, because 
 	they were counted two times. Ex.: 30 is divisble by 5 and 3, so it were added 
-	in first and in second "for" loop */
+	in the first and in the second "for" loop */
 	for (int i = 15; i < limit; i += 15)
 	{
 		result -= i;
