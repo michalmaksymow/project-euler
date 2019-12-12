@@ -1,5 +1,6 @@
 #include "Timer.h"
 
+/* Explanained in Timer.h */
 
 Timer::Timer()
 {
