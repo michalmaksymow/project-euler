@@ -8,7 +8,7 @@
 
 void problem002()
 {
-	Timer timer; // Starts to measure function time
+	Timer timer;
 
 	int result{};
 	std::vector<int> sequence{ 1, 2 };
