@@ -11,6 +11,7 @@ int main()
 
 	problem001();
 	problem002();
+	problem003();
 
 	system("pause");
 	return 0;
