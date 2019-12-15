@@ -7,7 +7,7 @@
 	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
-const long long c_number{ 600851475143 };
+const long long c_number = 600851475143;
 
 std::vector<long> prime_factors(long long number)
 {
@@ -31,9 +31,10 @@ void problem003()
 {
 	Timer timer;
 
-	int max{};
+	int max = 0;
 	std::vector<long> v;
 	v = prime_factors(c_number);
+	/* Finding maximum value in vector v */
 	for (long factor : v)
 	{
 		if (factor > max)
