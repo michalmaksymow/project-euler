@@ -10,12 +10,16 @@ void problem002()
 {
 	Timer timer;
 
-	int result{};
+	int result = 0;
 	std::vector<int> sequence{ 1, 2 };
+
+	/* Filling 'sequence' vector with Fibonacci sequence elements that are lower than 4000000*/
 	do
 	{
 		sequence.push_back(sequence[sequence.size() - 1] + sequence[sequence.size() - 2]);
 	} while (sequence[sequence.size() - 1] + sequence[sequence.size() - 2] < 4000000);
+
+	/* Adding together those elements that are even */
 	for (int i = 0; i < sequence.size(); i++)
 	{
 		if (sequence[i] % 2 == 0)
