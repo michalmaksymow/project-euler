@@ -1,6 +1,11 @@
 #include <string>
 #include "Timer.h"
 
+/*
+	Solution to Project Euler problem 4 in C++
+	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
+*/
+
 bool isPalindrome(int x)
 {
 	std::string number = std::to_string(x);
