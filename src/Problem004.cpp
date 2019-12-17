@@ -6,6 +6,8 @@
 	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
+/* Checks if given integer is a palindrome by comparing first to last, second
+to last - 1 and so on... */
 bool isPalindrome(int x)
 {
 	std::string number = std::to_string(x);
