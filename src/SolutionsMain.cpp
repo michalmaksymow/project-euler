@@ -13,6 +13,7 @@ int main()
 	problem002();
 	problem003();
 	problem004();
+	problem005_1();
 
 	system("pause");
 	return 0;
