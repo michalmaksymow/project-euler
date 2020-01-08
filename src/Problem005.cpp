@@ -6,6 +6,7 @@
 	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
+/* Brute force method */
 void problem005_1()
 {
 	Timer timer;
