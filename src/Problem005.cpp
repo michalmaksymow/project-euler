@@ -31,3 +31,5 @@ void problem005_1()
 	finish:
 	std::cout << "Problem 5, method 1: " << result << std::endl;
 }
+
+/* Second method */
