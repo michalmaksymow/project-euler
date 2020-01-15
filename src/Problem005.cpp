@@ -32,4 +32,4 @@ void problem005_1()
 	std::cout << "Problem 5, method 1: " << result << std::endl;
 }
 
-/* Second method */
+/* TODO Add prime factorization method */
