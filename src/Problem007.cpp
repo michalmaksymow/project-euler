@@ -3,10 +3,20 @@
 #include <stdlib.h>
 #include "Timer.h"
 
+/*
+	Solution to Project Euler problem 7 in C++
+	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
+*/
+
+/*
+	Solved using sieve of Eratosthenes algorithm,
+	it is not most optimal way of solving this problem
+	but for such a small numbers it doesn't matter.
+*/
 void problem007()
 {
 	Timer timer;
-
+	
 	const int n = 1000000;
 	bool* prime = new bool[n + 1];
 	for (int i = 0; i < n; i++) 
