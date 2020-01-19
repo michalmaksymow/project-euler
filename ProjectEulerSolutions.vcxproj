@@ -27,6 +27,7 @@
     <ClCompile Include="src\Problem006.cpp" />
     <ClCompile Include="src\Problem007.cpp" />
     <ClCompile Include="src\Problem009.cpp" />
+    <ClCompile Include="src\Problem012.cpp" />
     <ClCompile Include="src\SolutionsMain.cpp" />
     <ClCompile Include="src\Timer.cpp" />
   </ItemGroup>

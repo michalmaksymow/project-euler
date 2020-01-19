@@ -13,10 +13,11 @@ int main()
 	problem002();
 	problem003();
 	problem004();
-	problem005_1();
+	problem005_1(); // Add second method
 	problem006();
 	problem007();
 	problem009();
+	problem012(); // Add second method
 
 	system("pause");
 	return 0;
