@@ -30,6 +30,5 @@ void problem014()
 			maxIndex = i;
 		}
 	}
-
 	std::cout << "Problem 14: " << maxIndex << std::endl;
 }
