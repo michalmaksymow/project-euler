@@ -1,16 +1,23 @@
 #include "Timer.h"
 #include <iostream>
 
+/*
+	Solution to Project Euler problem 14 in C++
+	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
+*/
+
 void problem014() 
 {
 	Timer startTimer;
 
-	long maxTerms = 0;
-	long maxIndex = 0;
-	for (int i = 2; i < 1000000; i++) 
+	long long current = 0;
+	long maxTerms = 0, maxIndex = 0;
+	int terms = 0;
+
+	for (long i = 2; i < 1000000; i++) 
 	{
-		long current = i;
-		int terms = 1;
+		current = i;
+		terms = 1;
 		while (current != 1) 
 		{
 			if (current % 2 == 0) 
