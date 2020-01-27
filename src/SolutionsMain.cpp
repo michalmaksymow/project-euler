@@ -17,8 +17,9 @@ int main()
 	problem006();
 	problem007();
 	problem009();
-	problem012(); // Add second method
+	problem012(); 
 	problem014();
+	problem015(); // fix stack overflow after exams
 
 	system("pause");
 	return 0;
