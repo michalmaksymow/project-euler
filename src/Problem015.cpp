@@ -6,7 +6,7 @@
     Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
-
+// TODO binomial
 long long binominal(long n, long k) 
 {
     if ((n == k) || (k == 0))
