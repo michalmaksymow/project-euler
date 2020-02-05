@@ -26,6 +26,7 @@
     <ClCompile Include="src\Problem005.cpp" />
     <ClCompile Include="src\Problem006.cpp" />
     <ClCompile Include="src\Problem007.cpp" />
+    <ClCompile Include="src\Problem008.cpp" />
     <ClCompile Include="src\Problem009.cpp" />
     <ClCompile Include="src\Problem012.cpp" />
     <ClCompile Include="src\Problem014.cpp" />
