@@ -16,6 +16,7 @@ int main()
 	problem005_1(); // Add second method
 	problem006();
 	problem007();
+	problem008();
 	problem009();
 	problem012(); 
 	problem014();
