@@ -13,7 +13,7 @@ bool loadFile(std::string &number)
 {
     std::ifstream file;
 
-    file.open("C:/Users/User/Desktop/c++/repos/ProjectEulerSolutions/src/files/problem008.txt");
+    file.open("files/problem008.txt");
     if (!file)
     {
         return 0;
