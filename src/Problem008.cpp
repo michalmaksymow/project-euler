@@ -37,6 +37,8 @@ void problem008()
         return;
     }
 
+    Timer startTimer;
+
     unsigned long long product = 1;
     unsigned long long maxProduct = 0;
 

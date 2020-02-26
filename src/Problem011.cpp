@@ -27,8 +27,15 @@ bool loadFile(int* number, size_t size)
 
 void problem011()
 {
-    int* number = new int[20 * 20];
-    loadFile(number, 20 * 20);
+    Timer startTimer;
+
+    size_t arraySize = 20 * 20;
+    int* number = new int[arraySize];
+    if (!loadFile(number, arraySize))
+    {
+        std::cout << "Problem 11: Error loading data from file!" << std::endl;
+        return;
+    }
 
     int biggestProduct = 0;
 
