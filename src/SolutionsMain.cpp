@@ -21,7 +21,8 @@ int main()
 	problem011();
 	problem012(); 
 	problem014();
-	problem015(); // fix stack overflow after exams
+	problem015(); // fix stack overflow after finals
+	problem024();
 
 	system("pause");
 	return 0;
