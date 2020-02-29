@@ -3,6 +3,11 @@
 #include <algorithm>
 #include "Timer.h"
 
+/*
+    Solution to Project Euler problem 18 in C++
+    Copyright (c) Michal Maksymow. All rights reserved. No warranty.
+*/
+
 void problem018()
 {
     int triangle[15][15];
