@@ -13,4 +13,5 @@ void problem011();
 void problem012();
 void problem014();
 void problem015();
+void problem018();
 void problem024();

@@ -21,7 +21,8 @@ int main()
 	problem011();
 	problem012(); 
 	problem014();
-	problem015(); // fix stack overflow after finals
+	/*problem015();*/ // fix stack overflow after finals
+	problem018();
 	problem024();
 
 	system("pause");
