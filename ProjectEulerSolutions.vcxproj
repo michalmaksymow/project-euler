@@ -34,6 +34,7 @@
     <ClCompile Include="src\Problem015.cpp" />
     <ClCompile Include="src\Problem018.cpp" />
     <ClCompile Include="src\Problem024.cpp" />
+    <ClCompile Include="src\Problem067.cpp" />
     <ClCompile Include="src\SolutionsMain.cpp" />
     <ClCompile Include="src\Timer.cpp" />
   </ItemGroup>
