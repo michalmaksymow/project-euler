@@ -12,20 +12,18 @@ bool loadFile(int* number, size_t size)
     std::ifstream file;
 
     file.open("files/problem011.txt");
+
     if (!file)
-    {
-        return 0;
-    }
+        return false;
 
     for (size_t i = 0; i < size; i++)
-    {
         file >> number[i];
-    }
+    
     file.close();
-    return 1;
+    return true;
 }
 
-void problem011()
+int main()
 {
     Timer startTimer;
 
@@ -34,7 +32,7 @@ void problem011()
     if (!loadFile(number, arraySize))
     {
         std::cout << "Problem 11: Error loading data from file!" << std::endl;
-        return;
+        return 0;
     }
 
     int biggestProduct = 0;
@@ -53,8 +51,10 @@ void problem011()
                 if (number[j + i *20] * number[j - 1 + i * 20 + 20] * number[j - 2 + i * 20 + 40] * number[j - 3 + i * 20 + 60] > biggestProduct)
                     biggestProduct = number[j + i * 20] * number[j - 1 + i * 20 + 20] * number[j - 2 + i * 20 + 40] * number[j - 3 + i * 20 + 60];
             }
-
         }
     }
+
     std::cout << "Problem 11: " << biggestProduct << std::endl;
+
+    return 0;
 }

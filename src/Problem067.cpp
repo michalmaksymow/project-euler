@@ -8,7 +8,7 @@
     Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
-void problem067()
+int main()
 {
     int* triangle[100];
     /* Initializing part of 2D array on heap */
@@ -45,4 +45,6 @@ void problem067()
     {
         delete[] triangle[i];
     }
+
+    return 0;
 }

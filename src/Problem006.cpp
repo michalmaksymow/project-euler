@@ -7,14 +7,14 @@
 	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
-void problem006() 
+int  main() 
 {
 	Timer timer;
 
 	// The sum of the squares of the first one houndred natural numbers
-	int sumOfSquares = 0;
+	int sumOfSquares {};
 	// The square of the sum of the first one houndred natural numbers
-	int squareOfSum = 0;
+	int squareOfSum {};
 
 	for (int i = 1; i <= 100; i++) 
 	{
@@ -22,5 +22,7 @@ void problem006()
 		squareOfSum += i; // Adding i's and then rising the sum to the power of 2
 	}
 
-	std::cout << "Problem 6: " << (squareOfSum * squareOfSum) - sumOfSquares << std::endl; // Returning the answer
+	std::cout << "Problem 6: " << (squareOfSum * squareOfSum) - sumOfSquares << std::endl;
+
+	return 0;
 }

@@ -6,14 +6,14 @@
 	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
-void problem002()
+int main()
 {
 	Timer timer;
 
-	int result = 0;
+	int result {};
 	std::vector<int> sequence{ 1, 2 };
 
-	/* Filling 'sequence' vector with Fibonacci sequence elements that are lower than 4000000*/
+	/* Filling 'sequence' vector with Fibonacci sequence elements that are lower than 4000000 */
 	do
 	{
 		sequence.push_back(sequence[sequence.size() - 1] + sequence[sequence.size() - 2]);
@@ -27,5 +27,8 @@ void problem002()
 			result += sequence[i];
 		}
 	}
+
 	std::cout << "Problem 2: " << result << std::endl;
+
+	return 0;
 }

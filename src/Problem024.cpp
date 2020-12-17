@@ -33,7 +33,7 @@ void nextLexiographicPermutation(int array[], size_t size)
     }
 }
 
-void problem024()
+int main()
 {
     Timer startTimer;
 
@@ -51,4 +51,6 @@ void problem024()
         std::cout << permutation[i];
     }
     std::cout << "\n";
+
+    return 0;
 }

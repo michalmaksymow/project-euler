@@ -8,7 +8,7 @@
     Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
-void problem018()
+int main()
 {
     int triangle[15][15];
 
@@ -32,5 +32,8 @@ void problem018()
             triangle[i][j] += std::max(triangle[i + 1][j], triangle[i + 1][j + 1]);
         }
     }
+
     std::cout << "Problem 18: " << triangle[0][0] << std::endl;
+
+    return 0;
 }

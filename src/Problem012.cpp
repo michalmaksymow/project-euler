@@ -17,7 +17,7 @@ long triangleNumber(int n)
 	return number;
 }
 
-void problem012() 
+int main() 
 {
 	Timer startTimer;
 
@@ -38,4 +38,6 @@ void problem012()
 		}
 		n++;
 	}
+
+	return 0;
 }

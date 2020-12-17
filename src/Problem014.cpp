@@ -6,7 +6,7 @@
 	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
-void problem014() 
+int main() 
 {
 	Timer startTimer;
 
@@ -37,5 +37,8 @@ void problem014()
 			maxIndex = i;
 		}
 	}
+
 	std::cout << "Problem 14: " << maxIndex << std::endl;
+
+	return 0;
 }

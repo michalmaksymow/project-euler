@@ -7,11 +7,14 @@
 */
 
 /* Brute force method */
-void problem005_1()
+int main()
 {
 	Timer timer;
-	unsigned long long result{};
+
+	unsigned long long result {};
 	
+	bool breakFirst {};
+
 	/* Iterating through possibilities until the answer is found */
 	for (unsigned long long i = 1;; i++)
 	{
@@ -24,12 +27,14 @@ void problem005_1()
 			if (j == 20)
 			{
 				result = i;
-				goto finish;
+				breakFirst = true;
 			}
 		}
+		if (breakFirst)
+			break;
 	}
-	finish:
-	std::cout << "Problem 5, method 1: " << result << std::endl;
-}
 
-/* TODO Add prime factorization method */
+	std::cout << "Problem 5: " << result << std::endl;
+
+	return 0;
+}

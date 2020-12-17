@@ -1,7 +1,8 @@
+#include "Timer.h"
 #include <iostream>
 #include <vector>
 #include <stdlib.h>
-#include "Timer.h"
+
 
 /*
 	Solution to Project Euler problem 7 in C++
@@ -13,7 +14,7 @@
 	it is not most optimal way of solving this problem
 	but for such a small numbers it doesn't matter.
 */
-void problem007()
+int main()
 {
 	Timer timer;
 	
@@ -43,4 +44,6 @@ void problem007()
 	}
 
 	std::cout << "Problem 7: " << primeList.at(10000) << std::endl;
+
+	return 0;
 }

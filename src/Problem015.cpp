@@ -6,7 +6,7 @@
     Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
-// TODO binomial
+// TODO FIX
 long long binominal(long n, long k) 
 {
     if ((n == k) || (k == 0))
@@ -15,9 +15,11 @@ long long binominal(long n, long k)
         return binominal(n - 1, k) + binominal(n - 1, k - 1);
 }
 
-void problem015()
+int main()
 {
     Timer startTimer;
 
     std::cout << "Problem 15: " << binominal(40, 20) << std::endl;
+
+    return 0;
 }

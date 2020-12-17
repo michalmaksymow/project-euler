@@ -7,7 +7,7 @@
 	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
 */
 
-void problem009() 
+int main() 
 {
 	Timer startTimer;
 
@@ -28,4 +28,5 @@ void problem009()
 		}
 	}
 
+	return 0;
 }

@@ -1,7 +1,8 @@
+#include "Timer.h"
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "Timer.h"
+
 
 /*
     Solution to Project Euler problem 8 in C++
@@ -24,17 +25,19 @@ bool loadFile(std::string &number)
     {
         number.append(lineRead);
     }
+
     file.close();
+
     return 1;
 }
 
-void problem008()
+int main()
 {
     std::string number;
     if (!loadFile(number))
     {
         std::cout << "Problem 8: Error loading data from file!" << std::endl;
-        return;
+        return 0;
     }
 
     Timer startTimer;
@@ -57,5 +60,5 @@ void problem008()
 
     std::cout << "Problem 8: " << maxProduct << std::endl;
     
+    return 0;
 }
-

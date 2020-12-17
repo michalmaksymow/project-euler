@@ -19,12 +19,13 @@ bool isPalindrome(int x)
 	return true;
 }
 
-void problem004()
+int main()
 {
 	Timer timer;
 
-	int max{};
-	int result{};
+	int max {};
+	int result {};
+
 	/* Iterates through possible results and check if they are palindromes */
 	for (int i = 999; i > 99; i--)
 	{
@@ -37,5 +38,8 @@ void problem004()
 			}
 		}
 	}
+
 	std::cout << "Problem 4: " << max << std::endl;
+
+	return 0;
 }

@@ -27,13 +27,14 @@ std::vector<long> prime_factors(long long number)
 	return factors;
 }
 
-void problem003()
+int main()
 {
 	Timer timer;
 
-	int max = 0;
+	int max {};
 	std::vector<long> v;
 	v = prime_factors(c_number);
+
 	/* Finding maximum value in vector v */
 	for (long factor : v)
 	{
@@ -42,5 +43,8 @@ void problem003()
 			max = factor;
 		}
 	}
+
 	std::cout << "Problem 3: " << max << std::endl;
+
+	return 0;
 }
