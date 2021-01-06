@@ -1,8 +1,11 @@
 #include <iostream>
 #include <cmath>
+#include "Timer.h"
 
 int main()
 {
+    Timer startTimer;
+
     unsigned long long sum{1};
     unsigned int length{3};
 
