@@ -9,7 +9,7 @@ I have also added a simple timer class which uses `std::chrono` in order to meas
 
 ----
 
-Copyright � 2020 Michal Maksymow. All rights reserved. No warranty.
+Copyright &copy; 2020 Michal Maksymow. All rights reserved. No warranty.
 
 This code is provided for reference only. You may republish any of this code verbatim with author and URL info intact.
 
