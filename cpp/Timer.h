@@ -6,7 +6,7 @@
 	This timer class is used in every problem that I solved
 	in order to measure efficiency of each problem implementation.
 	It is the most basic implementation that I could think of,
-	basicly to start this timer you only have to initialize it 
+	basically to start this timer you only have to initialize it 
 	at the beginning of a function that you want to measure 
 	duration of. When it is initialized, the constructor Timer() 
 	is called and it sets a point in time, when the funcion ends the

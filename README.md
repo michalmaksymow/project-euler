@@ -2,7 +2,7 @@
 
 My collection of code for solving Project Euler problems. I solve Project Euler problems for self-development purposes, mainly to gain expertise in algorithms and data structures, practice problem solving and become a better programmer.
 
-Every problem in this list is solved in either C++, Python, Go or any other programming language of my choice. Some problems have detailed mathematical explanations or proofs in the comments.
+Every problem in this list is solved in either C++, Python, Typescript or any other programming language of my choice. Some problems have detailed mathematical explanations or proofs in the comments.
 
 ---
 
