@@ -1,7 +1,5 @@
 #include "Timer.h"
 
-/* Explanained in Timer.h */
-
 Timer::Timer()
 {
 	this->start = std::chrono::high_resolution_clock::now();
@@ -12,5 +10,5 @@ Timer::~Timer()
 {
 	this->end = std::chrono::high_resolution_clock::now();
 	this->duration = end - start;
-	std::cout << "This problem took: " << duration.count() << " ms. \n";
+	std::cout << "This problem took: " << duration.count() << " ms to complete. \n";
 }
