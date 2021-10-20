@@ -1,11 +1,6 @@
 #include "Timer.h"
 #include <vector>
 
-/*
-	Solution to Project Euler problem 2 in C++
-	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 int main()
 {
 	Timer timer;

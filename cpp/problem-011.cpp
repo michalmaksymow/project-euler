@@ -2,11 +2,6 @@
 #include <fstream>
 #include "Timer.h"
 
-/*
-    Solution to Project Euler problem 11 in C++
-    Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 bool loadFile(int* number, size_t size)
 {
     std::ifstream file;

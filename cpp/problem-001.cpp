@@ -1,10 +1,5 @@
 #include "Timer.h"
 
-/*
-	Solution to Project Euler problem 1 in C++
-	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 const int limit = 1000;
 
 int main()

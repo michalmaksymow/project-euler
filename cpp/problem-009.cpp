@@ -2,11 +2,6 @@
 #include <iostream>
 #include <cmath>
 
-/*
-	Solution to Project Euler problem 9 in C++
-	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 int main() 
 {
 	Timer startTimer;

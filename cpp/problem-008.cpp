@@ -3,12 +3,6 @@
 #include <fstream>
 #include <string>
 
-
-/*
-    Solution to Project Euler problem 8 in C++
-    Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 /* Loading 1000-digit number from file "problem008.txt" */
 bool loadFile(std::string &number)
 {

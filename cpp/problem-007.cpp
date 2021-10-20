@@ -3,12 +3,6 @@
 #include <vector>
 #include <stdlib.h>
 
-
-/*
-	Solution to Project Euler problem 7 in C++
-	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 /*
 	Solved using sieve of Eratosthenes algorithm,
 	it is not most optimal way of solving this problem

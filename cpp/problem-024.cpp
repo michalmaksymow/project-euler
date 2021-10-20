@@ -1,11 +1,6 @@
 #include <iostream>
 #include "Timer.h"
 
-/*
-    Solution to Project Euler problem 24 in C++
-    Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 void nextLexiographicPermutation(int array[], size_t size)
 {
     int i = size - 1;

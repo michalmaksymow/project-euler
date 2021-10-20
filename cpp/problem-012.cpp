@@ -2,11 +2,6 @@
 #include <iostream>
 #include <cmath>
 
-/*
-	Solution to Project Euler problem 12 in C++
-	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 long triangleNumber(int n) 
 {
 	long number = 0;

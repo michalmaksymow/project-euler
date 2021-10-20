@@ -1,11 +1,6 @@
 #include "Timer.h"
 #include <iostream>
 
-/*
-	Solution to Project Euler problem 14 in C++
-	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 int main() 
 {
 	Timer startTimer;

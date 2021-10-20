@@ -1,11 +1,6 @@
 #include "Timer.h"
 #include <vector>
 
-/*
-	Solution to Project Euler problem 5 in C++
-	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 /* Brute force method */
 int main()
 {

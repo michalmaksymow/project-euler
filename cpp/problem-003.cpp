@@ -2,11 +2,6 @@
 #include <vector>
 #include <math.h>
 
-/*
-	Solution to Project Euler problem 3 in C++
-	Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 const long long c_number = 600851475143;
 
 std::vector<long> prime_factors(long long number)

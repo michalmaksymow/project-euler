@@ -1,11 +1,6 @@
 #include "Timer.h"
 #include <iostream>
 
-/*
-    Solution to Project Euler problem 15 in C++
-    Copyright (c) Michal Maksymow. All rights reserved. No warranty.
-*/
-
 // TODO FIX
 long long binominal(long n, long k) 
 {
