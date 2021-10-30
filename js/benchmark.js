@@ -1,4 +1,4 @@
-function execute(functionToExecute) {
+function benchmark(functionToExecute) {
   const startTimestamp = performance.now();
   const functionReturnValue = functionToExecute();
   const endTimestamp = performance.now();
@@ -9,4 +9,4 @@ function execute(functionToExecute) {
   };
 }
 
-module.exports = execute;
+module.exports = benchmark;

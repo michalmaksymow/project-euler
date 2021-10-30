@@ -1,6 +1,8 @@
-const execute = require("./execute");
+const benchmark = require("./benchmark");
 
-function firstMethod() {
+function firstMethod() {}
+
+function secondMethod() {
   const LIMIT = 1000;
 
   let result = 0;
@@ -21,9 +23,9 @@ function firstMethod() {
 }
 
 // TODO: Make execute take as many functions as I want, and format the results
-const firstMethodResults = execute(firstMethod);
+const secondMethodResults = benchmark(secondMethod);
 console.log(
   "The first solution method: \n\t",
-  `Took (milliseconds):\t ${firstMethodResults.executionTime} \n\t`,
-  `Returned:\t\t ${firstMethodResults.value} \n`
+  `Took (milliseconds):\t ${secondMethodResults.executionTime} \n\t`,
+  `Returned:\t\t ${secondMethodResults.value} \n`
 );
