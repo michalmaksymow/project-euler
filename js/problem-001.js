@@ -22,10 +22,4 @@ function secondMethod() {
   return result;
 }
 
-// TODO: Make execute take as many functions as I want, and format the results
-const secondMethodResults = benchmark(secondMethod);
-console.log(
-  "The first solution method: \n\t",
-  `Took (milliseconds):\t ${secondMethodResults.executionTime} \n\t`,
-  `Returned:\t\t ${secondMethodResults.value} \n`
-);
+benchmark(secondMethod);

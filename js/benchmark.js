@@ -3,10 +3,11 @@ function benchmark(functionToExecute) {
   const functionReturnValue = functionToExecute();
   const endTimestamp = performance.now();
 
-  return {
-    value: functionReturnValue,
-    executionTime: endTimestamp - startTimestamp,
-  };
+  console.log(
+    "The solution: \n\t",
+    `Took (milliseconds):\t ${endTimestamp - startTimestamp} \n\t`,
+    `Returned:\t\t ${functionReturnValue} \n`
+  );
 }
 
 module.exports = benchmark;
