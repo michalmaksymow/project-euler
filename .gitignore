@@ -1,3 +1,9 @@
+# IDE related stuff
+.idea
+
+# Output files
 *.exe
 *.out
+
+# Python related files and directories
 *__pycache__*
