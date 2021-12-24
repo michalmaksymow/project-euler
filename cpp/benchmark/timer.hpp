@@ -18,8 +18,6 @@
 
 class Timer
 {
-    using std::chrono;
-
 private:
     std::chrono::time_point<std::chrono::high_resolution_clock> start, end;
 	std::chrono::duration<float, std::milli> duration;

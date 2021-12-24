@@ -1,4 +1,4 @@
-#include "benchmark/timer.h"
+#include "benchmark/timer.hpp"
 
 const int limit = 1000;
 
