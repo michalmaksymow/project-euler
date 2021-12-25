@@ -1,45 +1,35 @@
-#include "Timer.h"
 #include <vector>
-#include <math.h>
+#include <cmath>
 
-const long long c_number = 600851475143;
+#include "benchmark/timer.hpp"
 
-std::vector<long> prime_factors(long long number)
-{
-	std::vector<long> factors;
-	for (long i = 2; i <= sqrt(number); i++)
-	{
-		while (number % i == 0)
-		{
-			factors.push_back(i);
-			number = number / i;
-		}
-	}
-	if (number > 2)
-	{
-		factors.push_back(number);
-	}
-	return factors;
+const uint64_t c_number = 600851475143LL;
+
+std::vector <uint32_t> findPrimeFactors(uint64_t number) {
+    std::vector <uint32_t> factors;
+
+    for (size_t i = 2; i <= sqrt(number); ++i) {
+        while (number % i == 0) {
+            factors.push_back(i);
+            number /= i;
+        }
+    }
+
+    if (number > 2)
+        factors.push_back(number);
+
+    return factors;
 }
 
-int main()
-{
-	Timer timer;
+int main() {
+    Timer timer;
 
-	int max {};
-	std::vector<long> v;
-	v = prime_factors(c_number);
+    // Finding prime factors of the number defined in the task
+    auto primeFactors = findPrimeFactors(c_number);
 
-	/* Finding maximum value in vector v */
-	for (long factor : v)
-	{
-		if (factor > max)
-		{
-			max = factor;
-		}
-	}
+    // Finding maximum value in primeFactors vector
+    auto maxElement = std::max_element(primeFactors.begin(), primeFactors.end());
 
-	std::cout << "Problem 3: " << max << std::endl;
-
-	return 0;
+    std::cout << "Problem 3: " << *maxElement << std::endl;
+    return 0;
 }
