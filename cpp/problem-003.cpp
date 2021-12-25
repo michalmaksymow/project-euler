@@ -3,8 +3,9 @@
 
 #include "benchmark/timer.hpp"
 
-const uint64_t c_number = 600851475143LL;
+const uint64_t THE_NUMBER = 600851475143LL;
 
+// Finding prime factors of a number using the sieve of Eratosthenes algorithm
 std::vector <uint32_t> findPrimeFactors(uint64_t number) {
     std::vector <uint32_t> factors;
 
@@ -25,7 +26,7 @@ int main() {
     Timer timer;
 
     // Finding prime factors of the number defined in the task
-    auto primeFactors = findPrimeFactors(c_number);
+    auto primeFactors = findPrimeFactors(THE_NUMBER);
 
     // Finding maximum value in primeFactors vector
     auto maxElement = std::max_element(primeFactors.begin(), primeFactors.end());
