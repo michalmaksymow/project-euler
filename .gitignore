@@ -1,9 +1,15 @@
 # IDE related stuff
 .idea
 
+# CMake related directories
+cmake-build-debug/
+
 # Output files
 *.exe
 *.out
+
+# Precompiled headers
+*.gch
 
 # Python related files and directories
 *__pycache__*
