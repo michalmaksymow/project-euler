@@ -32,5 +32,4 @@ int main() {
     auto maxElement = std::max_element(primeFactors.begin(), primeFactors.end());
 
     std::cout << "Problem 3: " << *maxElement << std::endl;
-    return 0;
 }

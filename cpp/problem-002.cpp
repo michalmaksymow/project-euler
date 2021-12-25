@@ -1,4 +1,5 @@
 #include <vector>
+
 #include "benchmark/timer.hpp"
 
 int main() {
@@ -22,6 +23,4 @@ int main() {
     }
 
     std::cout << "Problem 2: " << result << std::endl;
-
-    return 0;
 }

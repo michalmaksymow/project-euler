@@ -25,6 +25,4 @@ int main() {
     }
 
     std::cout << "Problem 1: " << result << std::endl;
-
-    return 0;
 }
