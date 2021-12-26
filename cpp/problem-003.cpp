@@ -5,7 +5,6 @@
 
 const uint64_t THE_NUMBER = 600851475143LL;
 
-// Finding prime factors of a number using the sieve of Eratosthenes algorithm
 std::vector <uint32_t> findPrimeFactors(uint64_t number) {
     std::vector <uint32_t> factors;
 

@@ -1,35 +1,29 @@
-#include "Timer.h"
 #include <vector>
+#include <iostream>
 
-/* Brute force method */
-int main()
-{
-	Timer timer;
+#include "benchmark/timer.hpp"
 
-	unsigned long long result {};
-	
-	bool breakFirst {};
+int main() {
+    Timer timer;
 
-	/* Iterating through possibilities until the answer is found */
-	for (unsigned long long i = 1;; i++)
-	{
-		for (size_t j = 1; j <= 20; j++)
-		{
-			if (i % j != 0)
-			{
-				break;
-			}
-			if (j == 20)
-			{
-				result = i;
-				breakFirst = true;
-			}
-		}
-		if (breakFirst)
-			break;
-	}
+    uint64_t result{};
 
-	std::cout << "Problem 5: " << result << std::endl;
+    bool breakFirst{};
 
-	return 0;
+    // Iterating through possibilities until the answer is found. Brute force method
+    for (uint64_t i = 1;; ++i) {
+        for (size_t j = 1; j <= 20; ++j) {
+            if (i % j != 0)
+                break;
+
+            if (j == 20) {
+                result = i;
+                breakFirst = true;
+            }
+        }
+        if (breakFirst)
+            break;
+    }
+
+    std::cout << "Problem 5: " << result << std::endl;
 }
