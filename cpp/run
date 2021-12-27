@@ -4,6 +4,7 @@ OPTIMIZATION_LEVEL="O2"
 
 echo "Building $1 and running..."
 
+# Compiling executable
 g++ "$1" \
 benchmark/timer.hpp \
 benchmark/timer.cpp \
@@ -11,6 +12,10 @@ benchmark/timer.cpp \
 -Wall -Wpedantic -Werror \
 -$OPTIMIZATION_LEVEL \
 
+# Running compiled output
 ./a.out
 
-rm -f a.out
+# Cleaning up
+find . -name "*.out" -type f -delete
+find . -name "*.hpp.gch" -type f -delete
+
