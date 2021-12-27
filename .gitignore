@@ -13,3 +13,6 @@ cmake-build-debug/
 
 # Python related files and directories
 *__pycache__*
+
+# OS related files
+.DS_Store
