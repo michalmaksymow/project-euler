@@ -1,7 +1,7 @@
 from timer import Timer
 
 
-def compute():
+def main():
     Timer()
 
     f1 = 1
@@ -15,4 +15,5 @@ def compute():
     print(term)
 
 
-compute()
+if __name__ == "__main__":
+    main()
