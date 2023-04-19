@@ -1,9 +1,4 @@
-from timer import Timer
-
-
-def main():
-    Timer()
-
+def solution():
     total = 0
     for i in range(3, 1000, 3):
         total = total + i
@@ -14,8 +9,8 @@ def main():
     for i in range(15, 1000, 15):
         total = total - i
 
-    print(total)
+    return total
 
 
 if __name__ == "__main__":
-    main()
+    print(solution())

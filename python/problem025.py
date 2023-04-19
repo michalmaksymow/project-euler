@@ -1,9 +1,4 @@
-from timer import Timer
-
-
-def main():
-    Timer()
-
+def solution():
     f1 = 1
     f2 = 1
     term = 2
@@ -16,4 +11,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    solution()
