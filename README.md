@@ -22,7 +22,7 @@ I am open to constructive feedback and collaboration. If you have any suggestion
 
 ## License
 
-Copyright &copy; 2021 - 2023 XYZ. All rights reserved. No warranty.
+Copyright &copy; 2021 - 2023 Michal Maksymow. All rights reserved. No warranty.
 This code is provided for reference only. You may republish any of this code verbatim, as long as the author's name and URL info remain intact. To make modifications to the code, include parts into your own work, etc., you must first obtain written permission from the author.
 
 Please note that this is a personal project and is by no means intended to provide ready-made solutions for Project Euler problems. The goal here is to encourage learning, exploration, and the joy of problem-solving. I strongly advise against using these solutions to bypass the genuine intellectual effort required to solve these problems.
