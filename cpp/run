@@ -1,5 +1,5 @@
 #!/bin/sh
-STD_VERSION="c++20"
+STD_VERSION="c++17"
 OPTIMIZATION_LEVEL="O2"
 
 echo "Building $1 and running..."
