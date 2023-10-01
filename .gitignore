@@ -1,5 +1,6 @@
 # IDE related stuff
 .idea
+.vscode
 
 # CMake related directories
 cmake-build-debug/
