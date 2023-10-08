@@ -1,0 +1,21 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+UseTab: Never
+Standard: c++17
+FixNamespaceComments: false
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: false
+AccessModifierOffset: -4
+ColumnLimit: 90
+AllowShortFunctionsOnASingleLine: InlineOnly
+SortIncludes: Never
+IncludeCategories:
+  - Regex:           '^".*'
+    Priority:        2
+  - Regex:           '^<.*'
+    Priority:        1
+AlignAfterOpenBracket: DontAlign
+ContinuationIndentWidth: 8
+ConstructorInitializerIndentWidth: 8
+BreakConstructorInitializers: AfterColon
+AlwaysBreakTemplateDeclarations: Yes
