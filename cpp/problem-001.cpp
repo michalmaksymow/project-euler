@@ -1,10 +1,7 @@
 #include "benchmark/timer.hpp"
 
-const int limit = 1000;
-
-int main() {
-    Timer timer;
-
+void solve() {
+    const int limit = 1000;
     int result{};
 
     // Adding every number that is a multiple of 3 and lower than 1000 to the result
@@ -17,12 +14,17 @@ int main() {
         result += i;
     }
 
-    // Subtracting every number that is a multiple of 15 from the result, because
-    // they were counted two times. Ex.: 30 is divisible by 5 and 3, so it were added
-    // in the first and in the second loop.
+    // Subtracting every number that is a multiple of 15 from the result, because they
+    // were counted two times. Ex.: 30 is divisible by 5 and 3, so it were added in the
+    // first and in the second loop.
     for (int i = 15; i < limit; i += 15) {
         result -= i;
     }
 
     std::cout << "Problem 1: " << result << std::endl;
+}
+
+int main() {
+    Timer timer;
+    solve();
 }
